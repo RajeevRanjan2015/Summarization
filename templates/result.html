@@ -17,10 +17,12 @@
 	</header>
 	<p style="color:blue;font-size:20;text-align: center;"><b>Your summary is:</b></p>
 	<div class="results">
+    <br></br>
+	
+	<p class="light">{{ final_summary }}</p>
+	<br></br>
 
-    <p class="light">{{ final_summary }}</p>
-	<textarea name="message" rows="6" cols="50">{{ final_summary }} </textarea>
-	<br/>
+	
 
 	</div>
 
@@ -37,9 +39,10 @@ div#brandname {
 }
 
 textarea {
-    width: 70%;
-    height: 350px;
+    width: 70%, center-align;
+    height: 150px;
     border: 1px solid #106ebe;
 	border-radius: 10px;
+	align: center:
 }
 </style>
