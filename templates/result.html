@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			NLP App
+		</div>
+		<h2 style="text-align:center">Text Summarization for wiki documents</h2>
+		
+	</div>
+	</header>
+	<p style="color:blue;font-size:20;text-align: center;"><b>Your summary is:</b></p>
+	<div class="results">
+
+    <p class="light">{{ final_summary }}</p>
+	<textarea name="message" rows="6" cols="50">{ final_summary } </textarea>
+	<br/>
+
+	</div>
+
+</body>
+</html>
+<style>
+div#brandname {
+    background: #106ebe;
+    padding: 17px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+textarea {
+    width: 70%;
+    height: 350px;
+    border: 1px solid #106ebe;
+	border-radius: 10px;
+}
+</style>
