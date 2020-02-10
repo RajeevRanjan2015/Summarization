@@ -26,8 +26,12 @@ https://rajeevranjan-summarizetext.herokuapp.com/
 
 ### About the files:
 
-1. In the create.py file I created two files for future uses one data.csv and other a numpy matrix.
+1. In the Text_Summarization.ipynb file the complete data preprocessing and model development is done.
 2. The application is run from the main.py file.
 3. In the template folder, there are home.html page from which you will ask your query and the result will be directed on recommend.html page.
 4. You need to have procfile where we initialize the app.
 5. You need to import all the libraries which are necessary for running the application that needs to be installed in heroku. All the necessary libraries are kept in requirement.txt file.
+
+### App Homepage:
+
+![homepage](https://github.com/RajeevRanjan2015/Text-Summarization/blob/master/home%20page.PNG)
